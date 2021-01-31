@@ -1,0 +1,58 @@
+# ESCOLA ALF
+Programa #Código&lt;para>todXs
+
+### Pré-requisitos
+Python 3
+
+### Instalação
+Criação da pasta do projeto
+```
+mkdir escola_alf
+```
+```
+cd escola_alf
+```
+
+Criação do ambiente virtual para isolar as dependencias localmente
+```
+python3 -m venv env
+```
+```
+Unix: source env/bin/activate
+```
+```
+Windows: `env\Scripts\activate`
+```
+
+Instalar o Django e o Django REST Framework no ambiente virtual
+```
+pip install django
+```
+```
+pip install djangorestframework
+```
+
+Clonar o projeto
+```
+git clone https://github.com/leticiafabiane/escola_alf.git
+```
+
+Entrar na pasta do projeto Django
+```
+cd escola_alf
+```
+
+Criar as migrações do banco de dados
+```
+python manage.py makemigrations
+```
+
+Criar as migrações do banco de dados
+```
+python manage.py migrate
+```
+
+Iniciar o servidor
+```
+python manage.py runserver
+```
