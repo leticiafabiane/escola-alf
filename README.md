@@ -52,7 +52,17 @@ Criar as migrações do banco de dados
 python manage.py migrate
 ```
 
+Criar super user
+```
+python manage.py createsuperuser --email seu@email.com --username admin
+```
+
 Iniciar o servidor
 ```
 python manage.py runserver
+```
+
+Para explorar a API entrar no endereço:
+```
+http://127.0.0.1:8000/
 ```
