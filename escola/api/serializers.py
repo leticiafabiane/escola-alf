@@ -7,7 +7,7 @@ class AlunoSerializer(serializers.HyperlinkedModelSerializer):
             raise serializers.ValidationError('Quantidade máxima de alunos excedida')
         return data
     class Meta:
-        model = Alunoa
+        model = Aluno
         fields = ['nome', 'sobrenome', 'media']
 
 class GabaritoSerializer(serializers.HyperlinkedModelSerializer):
