@@ -39,7 +39,7 @@ git clone https://github.com/leticiafabiane/escola-alf.git
 
 Entrar na pasta do projeto Django
 ```
-cd escola_alf
+cd escola-alf
 ```
 
 Criar as migrações do banco de dados
