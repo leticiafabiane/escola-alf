@@ -15,13 +15,13 @@ cd escola_alf
 
 Criação do ambiente virtual para isolar as dependencias localmente
 ```
-python3 -m venv env
+python -m venv env
 ```
 ```
 Unix: source env/bin/activate
 ```
 ```
-Windows: `env\Scripts\activate`
+Windows: env\Scripts\activate
 ```
 
 Instalar o Django e o Django REST Framework no ambiente virtual
@@ -34,7 +34,7 @@ pip install djangorestframework
 
 Clonar o projeto
 ```
-git clone https://github.com/leticiafabiane/escola_alf.git
+git clone https://github.com/leticiafabiane/escola-alf.git
 ```
 
 Entrar na pasta do projeto Django
